@@ -3,7 +3,7 @@
     z-index:15;
     top:50%;
     left:50%;
-    margin:100px 0 0 -150px;
+    margin:100px 0 0 -250px;
    
 }
 #main_tag{
@@ -27,20 +27,24 @@ a{
 #name{
 font-family: fantasy;
 text-align: center;
-
+color: #fff;
 font-weight: 700;
 
 }
 #info{
   
   color:rgba(149, 149, 149, 1);
+  margin-top: 8px;
   text-align: center;
 }
 .social_icon{
   text-align: center;
+
 }
 .ic{
   padding-right:25px;
+  margin-top: 30px;
+   color: #fff;
 
 }
 .ic:hover{
@@ -69,10 +73,11 @@ color: #8B0000;
 .menu ul li{
 text-align:center;
 font-weight:bold;
-color:gray;
+ color: #fff;
   list-style: none;
     float:left;
     margin: 30px;
+    margin-top: 35px;
     padding-left: 10px;
 }
 .menu ul li:hover{
@@ -85,6 +90,11 @@ box-shadow:2px -1px  5px 3px green;
 /*Device width  maximum width 380px*/
  @media screen and (max-width:380px){
 
+  .main-container{
+
+    margin:100px 0 0 -140px;
+   
+}
   #name{
 font-size: 25px;
 font-weight: 700;
@@ -94,6 +104,7 @@ font-weight: 700;
 
     font-size: 14px;
     margin: 6px;
+    margin-top: 18px;
     margin-left: 13px;
 
 }
@@ -118,7 +129,11 @@ box-shadow:1px -1px  2px 1px green;
  }
  /*Device width  maximum width 590px*/
  @media screen and (max-width:590px)and (min-width:381px){
-
+.main-container{
+  
+    margin:100px 0 0 -160px;
+   
+}
   #name{
 
 font-size: 28px;
