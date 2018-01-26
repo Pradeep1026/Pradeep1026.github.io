@@ -80,6 +80,10 @@ font-weight:bold;
     margin-top: 35px;
     padding-left: 10px;
 }
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+}
 .menu ul li:hover{
 color:red;
 box-shadow:2px -1px  5px 3px green;

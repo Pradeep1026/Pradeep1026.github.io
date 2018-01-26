@@ -1,0 +1,110 @@
+#header{
+	width: 100%;
+	height: 200px;
+	background-color: #6d9ac0;
+}
+#myprofile img{
+   border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
+}
+.name{
+	margin-left: 170px;
+	margin-top: -129px;
+	letter-spacing: 0.1em;
+}
+#profesion{
+	margin-top: -18px;
+font-size: 30px;
+font-family: fantasy;
+letter-spacing: 0.3em;
+}
+
+.contact{
+	   
+       float: right;
+    margin-top: -9em;
+    padding: 2em;
+    letter-spacing: 0.1em;
+    line-height: 2.0em;
+}
+.nav_div{
+	width: 600px;
+height: 45px;
+margin-left: 23em;
+background-color: #4fabd7;
+margin-top: -36px;
+border-radius: 10px;
+box-shadow: 0 8px 13px #090909;
+
+
+}
+.navbar ul li{S
+text-align: center;
+font-weight: bold;
+color:#fbfbfbe6;
+list-style: none;
+float: left;
+margin: 30px;
+margin-top: 0.5em;
+padding: 0.2em;
+
+}
+.navbar ul li:hover{
+color:red;
+}
+
+/*  this is container section */
+
+.container{
+
+	width: 100%;
+	height: 990px;
+	margin-top: 18px;
+	
+
+}
+.section{
+	height: 220px;
+}
+#skills{
+	width: 262px;
+height: 28px;
+background-color: #6d9ac0;
+text-align: center;
+padding-top: 20px;
+margin-left: 66px;
+border-left: 40px;
+border-bottom-left-radius: 7em;
+border-top-right-radius: 7em;
+}
+#line_style hr{
+	width: 914px;
+margin-top: -1.2em;
+margin-left: 24em;
+color: #4fabd7;
+}
+#skill_percent{
+	border-radius: 50%;
+width: 130px;
+height: 130px;
+text-align: center;
+background-color: #fff;
+margin-top: 45px;
+margin-left: 165px;
+box-shadow: 0 5px 3px;
+float: left;
+}
+#skill_percent img{
+	width: 110px;
+height: 104px;
+padding-top: 8px;
+}
+#skill_percent #js{
+	width: 88px;
+}
+#skill_percent #sql{
+	width: 145px;
+	height: 132px;
+}
