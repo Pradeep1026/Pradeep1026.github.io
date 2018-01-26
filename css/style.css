@@ -116,8 +116,8 @@ box-shadow:1px -1px  2px 1px green;
 
 
  }
- /*Device width  maximum width 580px*/
- @media screen and (max-width:580px)and (min-width:381px){
+ /*Device width  maximum width 590px*/
+ @media screen and (max-width:590px)and (min-width:381px){
 
   #name{
 
@@ -128,7 +128,7 @@ font-size: 28px;
 
     font-size: 17px;
     margin: 18px;
-    margin-left: 23px;
+    margin-left: 2px;
 }
 .menu ul li:hover{
 box-shadow:1px -1px  2px 1px green;
