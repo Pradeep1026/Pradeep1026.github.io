@@ -1,0 +1,175 @@
+.main-container{
+    position:absolute;
+    width:300px;
+    height:200px;
+    z-index:15;
+    top:50%;
+    left:50%;
+    margin:100px 0 0 -150px;
+   
+}
+#main_tag{
+ position:relative;   
+}
+a{
+
+  color: #474242;
+}
+#myprofile img{
+   border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border:2px solid #fff;
+}
+#myprofile img:hover{
+  
+  border:2px solid black;
+  box-shadow: 0 1px 25px 2px #9b4646;
+}
+#name{
+font-family: fantasy;
+text-align: center;
+
+font-weight: 700;
+
+}
+#info{
+  
+  color:rgba(149, 149, 149, 1);
+  text-align: center;
+}
+.social_icon{
+  text-align: center;
+}
+.ic{
+  padding-right:25px;
+
+}
+.ic:hover{
+  -ms-transform: rotate(45deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari 3-8 */
+    -webkit-transform-origin: 20% 40%; /* Safari 3-8 */
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+}
+.icg:hover{
+color: #8B0000;
+}
+.ici:hover{
+  color: #00FFFF;
+}
+.icf:hover{
+  color: #0000FF;
+}
+.ict:hover{
+  color: #00BFFF;
+}
+.icy:hover{
+  color: #FF0000;
+}
+.menu ul li{
+text-align:center;
+font-weight:bold;
+color:gray;
+  list-style: none;
+    float:left;
+    margin: 30px;
+    padding-left: 10px;
+}
+.menu ul li:hover{
+color:red;
+font-size: 18px;
+box-shadow:2px -1px  5px 3px #000;
+
+}
+
+
+/*Device width  maximum width 380px*/
+ @media screen and (max-width:380px){
+
+  #name{
+font-size: 25px;
+font-weight: 700;
+}
+
+  .menu ul li{
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+    font-size: 13px;
+    margin: 6px;
+    padding-left: 2px;
+=======
+    font-size: 16px;
+    margin: 10px;
+    padding-left: 6px;
+>>>>>>> 3dc836e3184cacd7f5fd7e6f07f3a70cd2f99bbe
+=======
+    font-size: 13px;
+    margin: 6px;
+    margin-left: 13px;
+>>>>>>> a4feb7066524682fb8a9eb2a47892df235374c93
+}
+.menu ul li:hover{
+font-size: 12px;
+box-shadow:1px -1px  2px 1px #000;
+
+}
+.menu{
+  margin-left: -25px;
+}
+#info{
+  font-size: 12px;
+ 
+}
+
+.ic{
+  padding-right:18px;
+
+}
+
+
+ }
+ /*Device width  maximum width 580px*/
+ @media screen and (max-width:580px)and (min-width:381px){
+
+  #name{
+
+font-size: 28px;
+
+}
+  .menu ul li{
+
+    font-size: 17px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    margin: 18px;
+    margin-left: 23px;
+=======
+    margin: 20px;
+    margin-left: 25px;
+>>>>>>> 3dc836e3184cacd7f5fd7e6f07f3a70cd2f99bbe
+=======
+    margin: 18px;
+    margin-left: 23px;
+>>>>>>> a4feb7066524682fb8a9eb2a47892df235374c93
+    padding-left: 5px;
+}
+.menu ul li:hover{
+font-size: 18px;
+
+}
+
+#info{
+  font-size: 13px;
+  
+}
+
+.ic{
+  padding-right:18px;
+
+}
+
+
+ }
