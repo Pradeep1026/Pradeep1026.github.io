@@ -40,6 +40,11 @@ box-shadow: 0 8px 13px #090909;
 
 
 }
+.navbar ul li a{
+  text-decoration: none;
+  color: red;
+}
+
 .navbar ul li{S
 text-align: center;
 font-weight: bold;
@@ -50,11 +55,19 @@ margin: 30px;
 margin-top: 0.5em;
 padding: 0.2em;
 
+
 }
 .navbar ul li:hover{
 color:red;
+box-shadow: 0 2px 3px #465ba5;
+
 }
 
+
+#active{
+	color: red;
+	box-shadow: 0 2px 3px #465ba5;
+}
 /*  this is container section */
 
 .container{
@@ -95,16 +108,56 @@ margin-top: 45px;
 margin-left: 165px;
 box-shadow: 0 5px 3px;
 float: left;
+transition: 1s;
+transform: translate(0,0);
+}
+#skill_percent:hover{
+	border-radius: 50%;
+
+box-shadow: 0px 7px 3px 3px;
+transform: translate(0,-20px);
+
 }
 #skill_percent img{
 	width: 110px;
 height: 104px;
 padding-top: 8px;
 }
+
 #skill_percent #js{
 	width: 88px;
 }
 #skill_percent #sql{
 	width: 145px;
 	height: 132px;
+}
+
+/* Experience section */
+
+.experience{
+	margin: 67px;
+font-size: 19px;
+
+}
+.experience ul li{
+	color: #ce0101;
+}
+.sectionBack{
+	background-color: #ababab99;
+	height: 380px;
+}
+.year{
+	width: 118px;
+height: 24px;
+background-color: #6d9ac0;
+text-align: center;
+padding-top: 4px;
+margin-top: -45px;
+margin-left: 15em;
+border-radius: 10px;
+}
+#ptext{
+	margin-left: 41px;
+	font-size: 16px;
+	margin-bottom: -35px;
 }
