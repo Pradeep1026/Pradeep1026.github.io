@@ -12,11 +12,8 @@
 </head>
 </head>
 <body>
-<div id="main_tag">
-  <canvas data-strokecolor="169,102,122" id="canvas"></canvas>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
-  <script src="js/index.js"></script>
+    <div id="particles-js">
+        <div id="main_tag">
   <div class="main-container">
     <div id="myprofile" align="center">
       <img src="image\p.jpg" alt="my Profile pic">
@@ -41,11 +38,18 @@
       </ul>
     </div>
   </div>
-  <canvas data-strokecolor="255,255,255" id="canvas"></canvas>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
-  <script src="js/index.js"></script>
+
   </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'particles.json',
+        function(){
+            console.log('particles.json loaded...')
+        })
+    </script>
 </body>
 
 </html>

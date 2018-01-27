@@ -1,3 +1,7 @@
+#particles-js{
+    background-image: url('../image/image1.jpg');
+    height: 100vh;
+}
 .main-container{
     position:absolute;
     z-index:15;
@@ -33,7 +37,7 @@ font-weight: 700;
 }
 #info{
   
-  color:rgba(149, 149, 149, 1);
+  color:rgb(218, 209, 209);
   margin-top: 8px;
   text-align: center;
 }
