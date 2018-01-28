@@ -20,6 +20,16 @@
 font-size: 30px;
 font-family: fantasy;
 letter-spacing: 0.3em;
+animation: anim 5s infinite;
+}
+@keyframes anim{
+	0%{color:#e40d0d;}
+	15%{color:tomato;}
+	25%{color:#eaf80be6;}
+	50%{color:#3f0;}
+	75%{color:#1024ff;}
+	90%{color: #ed7704;}
+	100%{color:#e60bdc;}
 }
 
 .contact{
