@@ -216,10 +216,11 @@ margin-left: 0em;
 
 .navbar ul li{
 
-margin: 4%;
+margin: 2%;
 font-size: 12px;
-
-
+}
+#aligning-left{
+	margin-left:10%;
 }
 .section{
 	height: 146px;
