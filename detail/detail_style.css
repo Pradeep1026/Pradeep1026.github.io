@@ -54,7 +54,7 @@ box-shadow: 0 8px 13px #090909;
 }
 .navbar ul li a{
   text-decoration: none;
-  color: red;
+  color: #fff;
 }
 
 .navbar ul li{
@@ -266,7 +266,7 @@ margin-left: -13px;
 }
 .sectionBack{
 	
-	height: 420px;
+	height: 425px;
 }
 .year{
 	width: 83px;
