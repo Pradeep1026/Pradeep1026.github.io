@@ -200,7 +200,7 @@ letter-spacing: 0.29em;
 .contact{
 	   
       font-size: 12px;
-    margin-top: 1em;
+    margin-top: 0em;
     padding: 1em;
 letter-spacing: 0.1em;
 line-height: 1.2em;
@@ -210,7 +210,7 @@ float: left;
 .nav_div{
 width: 100%;
 height: 35px;
-margin-top: -16px;
+margin-top: -15px;
 margin-left: 0em;
 }
 
