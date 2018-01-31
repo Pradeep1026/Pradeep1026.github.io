@@ -40,6 +40,7 @@ animation: anim 5s infinite;
     letter-spacing: 0.1em;
     line-height: 2.0em;
 }
+
 .nav_div{
 	width: 600px;
 height: 45px;
@@ -56,7 +57,7 @@ box-shadow: 0 8px 13px #090909;
   color: red;
 }
 
-.navbar ul li{S
+.navbar ul li{
 text-align: center;
 font-weight: bold;
 color:#fbfbfbe6;
@@ -172,3 +173,109 @@ border-radius: 10px;
 	font-size: 16px;
 	margin-bottom: -35px;
 }
+
+
+/*Device width  maximum width 590px*/
+ @media screen and (max-width:590px)and (min-width:350px){
+#header{
+	height: 165px;
+}
+#myprofile img{
+   border-radius: 50%;
+  width: 100px;
+  height: 100px;
+
+}
+.name{
+	margin-left: 107px;
+	 margin-top: -84px;
+    font-size: 8px;
+}
+#profesion{
+	margin-top: -12px;
+	font-size: 15px;
+letter-spacing: 0.29em;
+}
+
+.contact{
+	   
+      font-size: 12px;
+    margin-top: 1em;
+    padding: 1em;
+letter-spacing: 0.1em;
+line-height: 1.2em;
+float: left;
+}
+
+.nav_div{
+width: 100%;
+height: 35px;
+margin-top: -16px;
+margin-left: 0em;
+}
+
+.navbar ul li{
+
+margin: 4%;
+font-size: 12px;
+
+
+}
+.section{
+	height: 146px;
+}
+#skills{
+	width: 170px;
+height: 21px;
+padding-top: 8px;
+margin-left: 2px;
+font-size: 13px;
+}
+#line_style hr{
+	width: 50%;
+margin-left: 11em;
+}
+#skill_percent{
+width: 80px;
+height: 80px;
+margin-top: 33px;
+margin-left: 6px;
+}
+#skill_percent img{
+	width: 60px;
+height: 68px;
+}
+
+#skill_percent #js{
+	width: 50px;
+}
+#skill_percent #sql{
+width: 95px;
+height: 95px;
+margin-top: -8px;
+
+}
+/* Experience section */
+
+.experience{
+	margin: 66px;
+font-size: 14px;
+margin-left: -13px;
+
+}
+.sectionBack{
+	
+	height: 420px;
+}
+.year{
+	width: 83px;
+height: 15px;
+margin-top: -31px;
+margin-left: 15.5em;
+}
+#ptext{
+	font-size: 11px;
+}
+
+
+ }
