@@ -122,6 +122,30 @@ box-shadow: 0 5px 3px;
 float: left;
 transition: 1s;
 transform: translate(0,0);
+animation: sinusoid 3s ease infinite;
+}
+@keyframes sinusoid{
+	0%,50%{    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: cubic-bezier(.2,.25,.55,1);
+    animation-timing-function: cubic-bezier(.2,.25,.55,1);
+	}
+	25% {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+    -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+    animation-timing-function: cubic-bezier(.45,0,.8,.75);
+}
+75% {
+    -webkit-transform: translateY(7px);
+    transform: translateY(7px);
+    -webkit-animation-timing-function: cubic-bezier(.45,0,.8,.75);
+    animation-timing-function: cubic-bezier(.45,0,.8,.75);
+}
+100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
 }
 #skill_percent:hover{
 	border-radius: 50%;
